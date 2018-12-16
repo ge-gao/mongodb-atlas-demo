@@ -3,14 +3,14 @@
 variable "cluster_atlas_cidr_block" {}
 variable "cluster_authn-database-name" {}
 variable "cluster_authn-database-role-name" {}
-variable "cluster_aws_account_id" {}
+# variable "cluster_aws_account_id" {}
 variable "cluster_database-user-password" {}
 variable "cluster_database-user-username" {}
 variable "cluster_mongodb_atlas_api_key" {}
 variable "cluster_mongodb_atlas_org_id" {}
 variable "cluster_mongodb_atlas_project_name" {}
 variable "cluster_mongodb_atlas_username" {}
-variable "cluster_mongodbatlas_cluster_backup" {}
+# variable "cluster_mongodbatlas_cluster_backup" {}
 variable "cluster_mongodbatlas_cluster_disk_gb_enabled" {}
 variable "cluster_mongodbatlas_cluster_mongodb_major_version" {}
 variable "cluster_mongodbatlas_cluster_name" {}
@@ -19,9 +19,9 @@ variable "cluster_mongodbatlas_cluster_region" {}
 variable "cluster_mongodbatlas_cluster_size" {}
 variable "cluster_provider_name" {}
 variable "cluster_region" {}
-variable "cluster_vpc_cidr_block" {}
-variable "cluster_vpc_id" {}
-variable "cluster_whitelist_cidr_block" {}
+# variable "cluster_vpc_cidr_block" {}
+# variable "cluster_vpc_id" {}
+# variable "cluster_whitelist_cidr_block" {}
 
 //--------------------------------------------------------------------
 // Modules
